@@ -1,0 +1,46 @@
+/* Header Styles */
+
+h1, h2, h3 { 
+  font-family: "museo-sans-1", "museo-sans-2", sans-serif; 
+  font-weight: 700; 
+  /*font-family: "PT Sans", "Arial", "Helvetica", "Gill Sans", "Lucida Grande", "Verdana", sans-serif;*/
+}
+
+h1 { 
+  font-size: 3em; 
+  margin: 0;
+}
+h2 { 
+  font-size: 2em; 
+}
+h3 { 
+  font-size: 1.5em;
+  margin-bottom: .2em;
+}
+
+/* Text Styles */
+body { 
+  font-family: "droid-sans-1", "droid-sans-2", sans-serif;
+  font-size: 1.5em;
+}
+
+p {
+  line-height:1.75em
+}
+
+/* Link Styles */
+a {
+  color: #FA098D;
+  text-decoration: underline;
+}
+
+/* list Styles */
+li {
+  margin: 0 0 .25em 0;
+  list-style-type: none;
+}
+
+/* Selector classes */
+
+::-moz-selection{ background: #FA098D; color:#fff; text-shadow: none; }
+::selection { background:#FA098D; color:#fff; text-shadow: none; }

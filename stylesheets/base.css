@@ -1,3 +1,10 @@
+/* Body Styles */
+
+body {
+  background-image: url('../images/tile.gif');
+  background-repeat: repeat-x;
+}
+
 /* Header Styles */
 
 h1, h2, h3 { 

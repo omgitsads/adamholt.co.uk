@@ -1,35 +1,41 @@
 /* Body Styles */
+body { background-color: #F6EFE1; font-family: "droid-sans-1", "droid-sans-2", sans-serif; font-size: 1.5em; }
 
-body {
-  background-image: url('../images/tile.gif');
-  background-repeat: repeat-x;
+/* Container Styles */
+#content { 
+  background: white;
+  width: 960px;
+  margin: 1em auto 1em auto;
+  background-image: url('../images/tile.gif'); 
+  background-repeat: repeat-x; 
+  box-shadow: 0 0 20px #A5A5A5; 
+  -moz-box-shadow: 0 0 20px #A5A5A5; 
+  -webkit-box-shadow: 0 0 20px #A5A5A5; 
+  padding: 1em;
 }
 
 /* Header Styles */
 
 h1, h2, h3 { 
-  font-family: "museo-sans-1", "museo-sans-2", sans-serif; 
-  font-weight: 700; 
-  /*font-family: "PT Sans", "Arial", "Helvetica", "Gill Sans", "Lucida Grande", "Verdana", sans-serif;*/
+  font-family: "museo-sans-1", "museo-sans-2", sans-serif;
+  font-weight: 700;
 }
 
 h1 { 
-  font-size: 3em; 
+  font-size: 3em;
   margin: 0;
 }
+
 h2 { 
   font-size: 2em; 
 }
+
 h3 { 
+  margin-top: .5em;
   font-size: 1.5em;
-  margin-bottom: .2em;
 }
 
 /* Text Styles */
-body { 
-  font-family: "droid-sans-1", "droid-sans-2", sans-serif;
-  font-size: 1.5em;
-}
 
 p {
   line-height:1.75em

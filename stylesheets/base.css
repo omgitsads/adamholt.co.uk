@@ -8,9 +8,9 @@ body { background-color: #F6EFE1; font-family: "droid-sans-1", "droid-sans-2", s
   margin: 1em auto 1em auto;
   background-image: url('../images/tile.gif'); 
   background-repeat: repeat-x; 
-  box-shadow: 0 0 20px #A5A5A5; 
-  -moz-box-shadow: 0 0 20px #A5A5A5; 
-  -webkit-box-shadow: 0 0 20px #A5A5A5; 
+  box-shadow: 0 0 7px #A5A5A5; 
+  -moz-box-shadow: 0 0 7px #A5A5A5; 
+  -webkit-box-shadow: 0 0 7px #A5A5A5; 
   padding: 1em;
 }
 

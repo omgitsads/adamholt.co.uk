@@ -1,0 +1,11 @@
+{% if page.next %}
+  <a class="next-page pagination" href="{{ page.next.url }}">&#8249; Newer</a>
+{% else %}
+  <span class="next-page pagination">&#8249; Newer</span>
+{% endif %}
+<a href="/" class="pagination">Home</a>
+{% if page.previous %}
+  <a class="prev-page pagination" href="{{ page.previous.url }}">Older &#8250;</a>
+{% else %}
+  <span class="prev-page pagination">Older &#8250;</span>
+{% endif %}

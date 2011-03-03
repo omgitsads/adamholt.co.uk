@@ -1,0 +1,15 @@
+<div id="footer">
+  <div id="recent" class="grid_6">
+    <h3>Recent Posts</h3>
+    <ol>            
+      {% for post in site.posts limit:5 %}
+      <li><a href="{{post.url}}">{{post.title}}</a></li>
+      {% endfor %}
+    </ol>
+  </div>
+
+  <div id="about-me" class="grid_6">
+    <h3>About Me</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at nibh sem. Integer enim sem, lacinia non tempor id, suscipit non tellus. Nunc in nunc quis nisi faucibus mollis a vel eros. Praesent enim est, luctus eu viverra sit amet, mattis ac turpis. Duis enim magna, ultricies vitae blandit non, iaculis pulvinar felis. Morbi ultrices varius felis, non viverra dui lobortis vitae. Suspendisse fermentum blandit nisi in placerat. Phasellus consectetur elit id diam tempor facilisis semper tortor ultricies. Ut erat mauris, ornare in consequat ut, gravida vitae eros. Proin condimentum felis sed tortor tempus mattis.</p>
+  </div>
+</div>

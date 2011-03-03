@@ -12,6 +12,7 @@ body { background-color: #F6EFE1; font-family: "droid-sans-1", "droid-sans-2", s
   -moz-box-shadow: 0 0 7px #A5A5A5; 
   -webkit-box-shadow: 0 0 7px #A5A5A5; 
   padding: 1em;
+  margin-bottom: 3em;
 }
 
 /* Header Styles */
@@ -57,3 +58,12 @@ li {
 
 ::-moz-selection{ background: #FA098D; color:#fff; text-shadow: none; }
 ::selection { background:#FA098D; color:#fff; text-shadow: none; }
+
+/* Footer */
+#credits {
+  position:relative;
+  bottom: -55px;
+  left: 885px;
+  font-size: .5em;
+  color: #B6B6B6;
+}

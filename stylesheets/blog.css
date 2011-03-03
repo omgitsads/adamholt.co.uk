@@ -1,0 +1,101 @@
+/* Post Title Stuff */
+#title {
+  padding:0;
+  margin:0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: .5em;
+  padding-bottom: .25em;
+  border-bottom: 2px dotted #E2E2E2;
+}
+
+span.date {
+  display: block;
+  font-size: .8em;
+  color: #B6B6B6;
+}
+
+/* Navigation Stuff */
+
+.prev-page:before {
+  content:  "• " ;
+}
+
+.next-page:after {
+  content:  " •" ;
+}
+
+#header-navigation {
+  text-align: center;
+  margin-bottom: .2em;
+}
+
+#footer-navigation {
+  text-align: center;
+  margin-top: .5em;
+}
+
+.pagination {
+  text-decoration: none;
+  font-size: .7em;
+}
+
+/* Post Stuff */
+#post {
+  font-size: .8em;
+  border-bottom: 2px dotted #E2E2E2;
+}
+
+ul li {
+  list-style-type: disc;
+  margin-left: 1em;
+}
+
+ol li {
+  list-style-type: decimal;
+  margin-left: 1em;
+}
+
+blockquote {
+  padding-left: 1em;
+  border-left: 3px solid #B6B6B6;
+  font-size: .9em;
+}
+
+hr {
+  border: 2px dotted #E2E2E2;
+  border-style: none none dotted none;
+}
+
+/* Footer Stuff */
+#footer {
+  margin-top: 1em;
+}
+
+/* Recent Posts */
+
+#recent {
+  font-size: .5em;
+  border-right: 1px dotted #B6B6B6;
+  margin-right: 9px;
+}
+
+#recent h3 {
+  font-size: 2em;
+}
+
+#recent ol {
+  font-size: 1.5em;
+}
+
+/* About Me */
+#about-me {
+  font-size: .5em;
+}
+
+#about-me h3 {
+  font-size: 2em;
+}

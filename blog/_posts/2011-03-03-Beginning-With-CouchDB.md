@@ -1,12 +1,10 @@
 ---
 layout: post
 title: Beginning With CouchDB
-categories:
-  couchdb
-  nosql
+published: false
 ---
 
-Recently i've been spending a lot of time learning about NoSQL servers, initially i chose MongoDB over CouchDB, this was for a few reasons: 
+Recently i've been spending a lot of time learning about NoSQL databases, initially i chose to experiment with MongoDB over CouchDB, this was for a few reasons: 
 
 * Map/Reduce scared the crap out of me
 * MongoDB's ability to do dynamic queries if felt a bit closer to what i know in SQL-land
